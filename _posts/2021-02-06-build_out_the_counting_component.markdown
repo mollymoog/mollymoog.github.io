@@ -11,7 +11,6 @@ permalink:  build_out_the_counting_component
 * Use an event handler(onClick) to call the function that will count for you
 * The function will be updating the local state, you will want to pass state in as a variable to the setState function.
 
-```
 import React from 'react';
 
 class Heart extends React.Component {
@@ -39,4 +38,4 @@ class Heart extends React.Component {
 }
 
 export default Heart
-```
+
