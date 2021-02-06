@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Build out the counting component"
-date:       2021-02-06 05:00:16 +0000
+date:       2021-02-06 00:00:16 -0500
 permalink:  build_out_the_counting_component
 ---
 
@@ -11,7 +11,8 @@ permalink:  build_out_the_counting_component
 * Use an event handler(onClick) to call the function that will count for you
 * The function will be updating the local state, you will want to pass state in as a variable to the setState function.
 
-```import React from 'react';
+```
+import React from 'react';
 
 class Heart extends React.Component {
 
@@ -37,4 +38,5 @@ class Heart extends React.Component {
 
 }
 
-export default Heart```
+export default Heart
+```
